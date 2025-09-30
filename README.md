@@ -2,7 +2,7 @@
 <div align="center">
 <img src="https://github.com/dockur/windows/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" />
 <img src="https://github.com/dockur/macos/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" />
-<img src="https://raw.githubusercontent.com/github/explore/eb40fa94e4b686db568094600bb30065acce30c3/topics/linux/linux.png?size=48" title="Logo" style="max-width:100%;" width="128" />
+<img src="https://raw.github.com/github/explore/eb40fa94e4b686db568094600bb30065acce30c3/topics/linux/linux.png?size=48" title="Logo" style="max-width:100%;" width="128" />
 </div>
 
 # 禁止滥用，封了不能怪我
@@ -15,27 +15,29 @@
 
 2. 一键启动默认是windows7系统
 
-3. 在指令的"配置文件"可以换成w10.yml或者w11.yml，或者其他系统配置文件
+3. 在指令的"配置文件"可以换成"w10.yml"或者"w11.yml"，或者其他系统配置文件
 
-4. 当然，也可以选择 Win11/win10 之外其他的操作系统或软件的容器。比如，搭建一个网站，一个笔记系统等。
+4. 当然，也可以选择 Win11/win10 之外其他的操作系统或软件的容器。比如，搭建一个网站，一个笔记系统等，只要是docker容器都可以。
+
+5. 在vscode中打开配置文件可进行机器核心和运行内存的更改，也可更改端口。
 
 # 开始教程(使用)
 1. 先登录你的github账号
 2. 并拉取本项目
-3. 然后点击绿色按钮(Code)
+3. 然后点击本项目一个绿色按钮(Code)
 4. 右边的Codepaces
 5. 然后点击下面的小加号(+)
-6. 可以点击这个一键使用
+6. 也可以点击这个一键使用
 [![立即使用](https://github.com/codespaces/badge.svg)](https://codespaces.new/MOMOTAG123/GitToLindows?quickstart=1)
-7. 等待进入(这个是进入linux环境)
-8. 在终端这一行输入指令
+7. 等待进入(这个是进入github的linux环境)
+8. 然后在终端这一行输入指令
 ```yaml
 docker-compose -f "配置文件" up
 ```
-9. 然后等待，有个端口转发
+9. 然后等待，有个端口转发(如没有请点击端口一栏进行映射8006端口)
 10. 点击8006端口对应的链接网址
-11. 恭喜你完成这次的操作了
-12. 等待即可食用windows/linux
+11. 恭喜你完成本次操作了
+12. 等待即可食用windows/linux/macos
 
 # linux系统启动方法（连接）
 1. 部署好后，新建终端
